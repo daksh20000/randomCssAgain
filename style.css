@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    WIDTH: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 90px;
+    padding-top: 120px;;
+    padding-right: 400px;
+}
+#left{
+    /* background-color: red; */
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  
+}
+#right{
+    /* background-color: blue; */
+    width: 33%;
+    height: 100%;
+    
+}
+#left h2{
+    
+    font-family: "Work Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 49px;
+}
+#bottomleft{
+    /* background-color: green; */
+    height: 40%;
+    width: 100%;
+}
+
+#color{
+    /* background-color: blue; */
+    width:fit-content;
+    padding:10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+#color h5{
+    font-size: 12px;
+    margin-right: 3px;
+}
+#color1{
+    height: 12px;
+    width: 12px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 0px 2px;
+}
+#color2{
+    height: 12px;
+    width: 12px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 0px 1px;
+}
+#details h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 550;
+}
+#details p{
+    /* background-color: pink; */
+    font-weight: 500;
+    width:70%;
+    
+}
+
+#toplineright{
+    padding-top: 30px;
+     display: flex;
+    justify-content: space-between; 
+}
+#Rating{
+    display: flex;
+}
+#Rating h4{
+    margin-right: 10px;
+}
+
+#price{
+    font-size: 20px;
+}
+#rotated{
+    position: absolute;
+    /* background-color: pink; */
+    width:fit-content;
+    rotate: -90deg ;
+    top: 450px;
+    left: 650px;
+}
+#rotated h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+#img{
+    background-image: url("img/ranurte-kSdi_gqbGGs-unsplash.jpg");
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50% ;
+}
+#circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 45%;
+    left: 71%;
+    
+}
+#circle h5{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+}
+#circle a{
+    text-decoration: none;
+}
+
+#circle:hover a{
+    text-decoration: underline;
+    color: black;
+
+}
